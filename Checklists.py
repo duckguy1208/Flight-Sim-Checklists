@@ -550,6 +550,276 @@ AIRCRAFT_CHECKLISTS = {
             "Battery Switch — OFF"
         ]
     },
+    "Boeing 747": {
+        "Pre-flight": [
+            "Parking Brake — SET",
+            "Battery Switch — GUARD CLOSED / ON",
+            "Standby Power Switch — AUTO",
+            "APU / External Power 1 & 2 — ON BUS",
+            "IRS Selectors (L, C, R) — NAV (Aligning)",
+            "Hydraulic Demand Pumps (1, 2, 3, 4) — AUTO / OFF",
+            "Window Heat — ON",
+            "Passenger Signs — ON",
+            "Emergency Exit Lights — ARMED",
+            "Fuel Pumps (Main, Center, Reserve) — ON (as required)",
+            "FMC / CDU — IDENT, POS INIT, ROUTE & PERF SET",
+            "MCP — ALT, HDG, IAS SET",
+            "Takeoff Speeds (V1, VR, V2) — SET & SELECTED"
+        ],
+        "Before Taxi": [
+            "Engine Fuel Control Switches (1, 2, 3, 4) — CUTOFF",
+            "Engine Start Switches — START (Start 3+4, then 1+2)",
+            "Engine Fuel Control Switches — RUN (at 15-20% N2)",
+            "Generators (1, 2, 3, 4) — ON BUS",
+            "APU BLEED / APU Switch — OFF",
+            "Flaps — SET FOR TAKEOFF (Flaps 10 or 20)",
+            "Flight Controls — CHECK (FULL FREE)",
+            "Stabilizer Trim — SET FOR TAKEOFF",
+            "Body Gear Steering — AUTO / CHECKED",
+            "EICAS / Recall — CHECKED (NO WARNINGS)"
+        ],
+        "Taxi": [
+            "Taxi & Runway Turnoff Lights — ON",
+            "Auto Brake — RTO",
+            "TCAS — TA/RA",
+            "Weather Radar — ON / AUTO",
+            "Cabin Crew — ADVISED",
+            "Brakes — CHECK (Monitor Temps & Multi-Bogie Steering)"
+        ],
+        "Before Takeoff": [
+            "Landing Lights — ON",
+            "Strobe Lights — ON",
+            "Taxi Light — OFF",
+            "MCP / LNAV & VNAV — ARMED / SELECTED",
+            "Engine Start Switches — CONT",
+            "Takeoff Config — CHECKED",
+            "Cabin Crew — REPORTED READY"
+        ],
+        "Climbout": [
+            "Thrust Levers — TAKEOFF / TOGA",
+            "Airspeed — ALIVE & CROSSCHECKED",
+            "80 Knots — CHECKED",
+            "Rotate (VR) — PITCH UP ~10-12.5°",
+            "Positive Rate — GEAR UP",
+            "Autopilot 1, 2, or 3 — ENGAGE (Above 250 ft AGL)",
+            "Flaps — RETRACT (On Speed Schedule)",
+            "Engine Start Switches — OFF / AUTO",
+            "Auto Brake — OFF",
+            "Altimeters — SET STANDARD (at Transition Alt)"
+        ],
+        "Descent": [
+            "FMC Arrival & Approach — ENTERED & EXECUTED",
+            "Fuel Management / Balance — CHECKED (Stabilizer / Reserve Tanks)",
+            "Descent & Approach Briefing — COMPLETE",
+            "Altimeters — SET QNH / LOCAL",
+            "Auto Brake — SET (1, 2, 3, 4, or MAX)",
+            "Minimums — SET & CROSSCHECKED"
+        ],
+        "Landing": [
+            "Cabin Crew — REPORTED READY",
+            "Landing Lights — ON",
+            "Engine Start Switches — CONT",
+            "Flaps — FULL (Flaps 25 or 30)",
+            "Gear — DOWN (4 GREEN / Body Gear Tilt Verified)",
+            "Speedbrake Lever — ARMED",
+            "Landing Checklist — COMPLETE"
+        ],
+        "Shutdown": [
+            "Parking Brake — SET",
+            "Engine Fuel Control Switches (1, 2, 3, 4) — CUTOFF",
+            "Passenger Signs — OFF",
+            "Hydraulic Demand Pumps — OFF",
+            "Fuel Pumps — OFF",
+            "APU / EXT PWR 1 & 2 — ON BUS",
+            "Position Light — STEADY",
+            "Window Heat — OFF"
+        ],
+        "Securing Aircraft": [
+            "IRS Selectors — OFF",
+            "Emergency Exit Lights — OFF",
+            "APU Switch — OFF",
+            "Battery Switch — OFF"
+        ]
+    },
+    "Boeing 757": {
+        "Pre-flight": [
+            "Parking Brake — SET",
+            "Battery Switch — GUARD CLOSED / ON",
+            "Standby Power Switch — GUARD CLOSED / AUTO",
+            "APU / External Power — ON BUS",
+            "IRS Selectors (L, C, R) — NAV (Aligning)",
+            "Hydraulic Pumps (L, C, R) — AUTO / OFF / ON (Check Pressures)",
+            "Window Heat — ON",
+            "Passenger Signs — ON",
+            "Emergency Exit Lights — ARMED",
+            "Fuel Pumps — ON (L, R, and Center as required)",
+            "FMC / CDU — IDENT, POS INIT, ROUTE & PERF SET",
+            "MCP — ALT, HDG, IAS SET",
+            "Takeoff Speeds (V1, VR, V2) — SET & SELECTED"
+        ],
+        "Before Taxi": [
+            "Engine Start Levers — CUTOFF",
+            "Engine Start Switches — GND (Start #2, then #1)",
+            "Engine Start Levers — RUN (at 18-20% N2)",
+            "Generators 1 & 2 — ON BUS",
+            "APU BLEED / APU Switch — OFF",
+            "Flaps — SET FOR TAKEOFF (Flaps 5 or 15)",
+            "Flight Controls — CHECK (FULL FREE)",
+            "Stabilizer Trim — SET FOR TAKEOFF",
+            "EICAS / Recall — CHECKED (NO WARNINGS)"
+        ],
+        "Taxi": [
+            "Taxi Light — ON",
+            "Auto Brake — RTO",
+            "TCAS — TA/RA",
+            "Weather Radar — ON / AUTO",
+            "Cabin Crew — ADVISED",
+            "Brakes — CHECK"
+        ],
+        "Before Takeoff": [
+            "Landing Lights — ON",
+            "Strobe Lights — ON",
+            "Taxi Light — OFF",
+            "MCP / LNAV & VNAV — ARMED / SELECTED",
+            "Engine Start Switches — CONT",
+            "Takeoff Config — CHECKED",
+            "Cabin Crew — REPORTED READY"
+        ],
+        "Climbout": [
+            "Thrust Levers — TAKEOFF / EPR / TOGA",
+            "Airspeed — ALIVE & CROSSCHECKED",
+            "80 Knots — CHECKED",
+            "Rotate (VR) — PITCH UP ~15°",
+            "Positive Rate — GEAR UP",
+            "Autopilot 1 or 2 — ENGAGE (Above 200 ft AGL)",
+            "Flaps — RETRACT (On Speed Schedule)",
+            "Engine Start Switches — OFF / AUTO",
+            "Auto Brake — OFF",
+            "Altimeters — SET STANDARD (at Transition Alt)"
+        ],
+        "Descent": [
+            "FMC Arrival & Approach — ENTERED & EXECUTED",
+            "Descent & Approach Briefing — COMPLETE",
+            "Altimeters — SET QNH / LOCAL",
+            "Auto Brake — SET (1, 2, 3, 4, or MAX)",
+            "Minimums — SET & CROSSCHECKED"
+        ],
+        "Landing": [
+            "Cabin Crew — REPORTED READY",
+            "Landing Lights — ON",
+            "Engine Start Switches — CONT",
+            "Flaps — FULL (Flaps 25 or 30)",
+            "Gear — DOWN (3 GREEN)",
+            "Speedbrake Lever — ARMED",
+            "Landing Checklist — COMPLETE"
+        ],
+        "Shutdown": [
+            "Parking Brake — SET",
+            "Engine Start Levers — CUTOFF",
+            "Passenger Signs — OFF",
+            "Hydraulic Pumps — OFF",
+            "Fuel Pumps — OFF",
+            "APU / EXT PWR — ON BUS",
+            "Position Light — STEADY",
+            "Window Heat — OFF"
+        ],
+        "Securing Aircraft": [
+            "IRS Selectors — OFF",
+            "Emergency Exit Lights — OFF",
+            "APU Switch — OFF",
+            "Battery Switch — OFF"
+        ]
+    },
+    "Boeing 767": {
+        "Pre-flight": [
+            "Parking Brake — SET",
+            "Battery Switch — GUARD CLOSED / ON",
+            "Standby Power Switch — GUARD CLOSED / AUTO",
+            "APU / External Power — ON BUS",
+            "IRS Selectors (L, C, R) — NAV (Aligning)",
+            "Hydraulic Primary & Demand Pumps (L, C, R) — AUTO / ON",
+            "Window Heat — ON",
+            "Passenger Signs — ON",
+            "Emergency Exit Lights — ARMED",
+            "Fuel Pumps — ON (Check Main & Heavy Center Tanks)",
+            "FMC / CDU — IDENT, POS INIT, ROUTE & PERF SET",
+            "MCP — ALT, HDG, IAS SET",
+            "Takeoff Speeds (V1, VR, V2) — SET & SELECTED"
+        ],
+        "Before Taxi": [
+            "Engine Start Levers — CUTOFF",
+            "Engine Start Switches — GND (Start #2, then #1)",
+            "Engine Start Levers — RUN (at 18-20% N2)",
+            "Generators 1 & 2 — ON BUS",
+            "APU BLEED / APU Switch — OFF",
+            "Flaps — SET FOR TAKEOFF (Flaps 5, 15, or 20)",
+            "Flight Controls — CHECK (FULL FREE)",
+            "Stabilizer Trim — SET FOR TAKEOFF",
+            "EICAS / Recall — CHECKED (NO WARNINGS)"
+        ],
+        "Taxi": [
+            "Taxi Light — ON",
+            "Auto Brake — RTO",
+            "TCAS — TA/RA",
+            "Weather Radar — ON / AUTO",
+            "Cabin Crew — ADVISED",
+            "Brakes — CHECK (Monitor Main Gear Bogies)"
+        ],
+        "Before Takeoff": [
+            "Landing Lights — ON",
+            "Strobe Lights — ON",
+            "Taxi Light — OFF",
+            "MCP / LNAV & VNAV — ARMED / SELECTED",
+            "Engine Start Switches — CONT",
+            "Takeoff Config — CHECKED",
+            "Cabin Crew — REPORTED READY"
+        ],
+        "Climbout": [
+            "Thrust Levers — TAKEOFF / EPR / TOGA",
+            "Airspeed — ALIVE & CROSSCHECKED",
+            "80 Knots — CHECKED",
+            "Rotate (VR) — PITCH UP ~12.5°",
+            "Positive Rate — GEAR UP (Check Main Gear Bogie Tilt)",
+            "Autopilot 1 or 2 — ENGAGE (Above 200 ft AGL)",
+            "Flaps — RETRACT (On Speed Schedule)",
+            "Engine Start Switches — OFF / AUTO",
+            "Auto Brake — OFF",
+            "Altimeters — SET STANDARD (at Transition Alt)"
+        ],
+        "Descent": [
+            "FMC Arrival & Approach — ENTERED & EXECUTED",
+            "Center Tank Fuel Pumps — CHECK BALANCED / OFF IF EMPTY",
+            "Descent & Approach Briefing — COMPLETE",
+            "Altimeters — SET QNH / LOCAL",
+            "Auto Brake — SET (1, 2, 3, 4, or MAX)",
+            "Minimums — SET & CROSSCHECKED"
+        ],
+        "Landing": [
+            "Cabin Crew — REPORTED READY",
+            "Landing Lights — ON",
+            "Engine Start Switches — CONT",
+            "Flaps — FULL (Flaps 25 or 30)",
+            "Gear — DOWN (3 GREEN)",
+            "Speedbrake Lever — ARMED",
+            "Landing Checklist — COMPLETE"
+        ],
+        "Shutdown": [
+            "Parking Brake — SET",
+            "Engine Start Levers — CUTOFF",
+            "Passenger Signs — OFF",
+            "Hydraulic Demand Pumps — OFF",
+            "Fuel Pumps — OFF",
+            "APU / EXT PWR — ON BUS",
+            "Position Light — STEADY",
+            "Window Heat — OFF"
+        ],
+        "Securing Aircraft": [
+            "IRS Selectors — OFF",
+            "Emergency Exit Lights — OFF",
+            "APU Switch — OFF",
+            "Battery Switch — OFF"
+        ]
+    },
     "Boeing 777": {
         "Pre-flight": [
             "Parking Brake — SET",
@@ -636,5 +906,180 @@ AIRCRAFT_CHECKLISTS = {
             "APU Selector — OFF",
             "Battery Switch — OFF"
         ]
-    }
+    },
+    "Boeing 787": {
+        "Pre-flight": [
+            "Parking Brake — SET",
+            "Battery Switch — GUARD CLOSED / ON",
+            "Forward & Aft External Power (1 & 2) — ON BUS",
+            "APU MASTER & START — ON / RUN",
+            "ADIRU — ON (Verify Quick Alignment on LCD)",
+            "Window Dimmable Control — AS REQUIRED",
+            "Passenger Signs — AUTO / ON",
+            "Emergency Exit Lights — ARMED",
+            "Fuel Pumps — ON (Left, Right, & Center as required)",
+            "Hydraulic Elec & Air Pumps — AUTO / ON",
+            "FMC / CDU — IDENT, POS INIT, ROUTE & PERF SET",
+            "HUDs (Captain & FO) — LOWERED / SET",
+            "MCP — ALT, HDG, IAS SET",
+            "Takeoff Speeds (V1, VR, V2) — SET & SELECTED"
+        ],
+        "Before Taxi": [
+            "Engine Fuel Control Switches — CUTOFF",
+            "Engine Start Switches — START (Electric Starter-Generators)",
+            "Engine Fuel Control Switches — RUN (Monitor Auto-Start)",
+            "Generators (L1/L2 & R1/R2) — AUTO / ON BUS",
+            "APU — OFF (as required)",
+            "Flaps — SET FOR TAKEOFF (e.g., Flaps 5, 15, or 20)",
+            "Flight Controls — CHECK (FULL FREE)",
+            "Stabilizer Trim — SET FOR TAKEOFF",
+            "ECL / EICAS — CHECKED (NO WARNINGS / ECL CLEARED)"
+        ],
+        "Taxi": [
+            "Taxi Light — ON",
+            "Auto Brake — RTO",
+            "TCAS — TA/RA",
+            "Weather Radar / PWS — ON / AUTO",
+            "Cabin Crew — ADVISED",
+            "Brakes — CHECK"
+        ],
+        "Before Takeoff": [
+            "Landing Lights — ON",
+            "Strobe Lights — ON",
+            "Taxi Light — OFF",
+            "MCP / LNAV & VNAV — ARMED / SELECTED",
+            "Takeoff Config — CHECKED (NO EICAS WARNINGS)",
+            "Cabin Crew — REPORTED READY"
+        ],
+        "Climbout": [
+            "Thrust Levers — TAKEOFF / TOGA",
+            "Airspeed — ALIVE & CROSSCHECKED",
+            "80 Knots — CHECKED",
+            "Rotate (VR) — PITCH UP ~12.5° (Follow HUD Guidance)",
+            "Positive Rate — GEAR UP",
+            "Autopilot 1 or 2 — ENGAGE (Above 200 ft AGL)",
+            "Flaps — RETRACT (On Speed Schedule)",
+            "Auto Brake — OFF",
+            "Altimeters — SET STANDARD (at Transition Alt)"
+        ],
+        "Descent": [
+            "FMC Arrival & Approach — ENTERED & EXECUTED",
+            "Descent & Approach Briefing — COMPLETE",
+            "Altimeters — SET QNH / LOCAL",
+            "Auto Brake — SET (1, 2, 3, 4, or MAX)",
+            "Minimums — SET & CROSSCHECKED"
+        ],
+        "Landing": [
+            "Cabin Crew — REPORTED READY",
+            "Landing Lights — ON",
+            "Flaps — FULL (Flaps 25 or 30)",
+            "Gear — DOWN (3 GREEN)",
+            "Speedbrake Lever — ARMED",
+            "ECL / Landing Checklist — COMPLETE"
+        ],
+        "Shutdown": [
+            "Parking Brake — SET",
+            "Engine Fuel Control Switches — CUTOFF",
+            "Passenger Signs — OFF",
+            "Hydraulic Pumps — OFF / AUTO",
+            "Fuel Pumps — OFF",
+            "APU / External Power 1 & 2 — ON BUS",
+            "Position Light — STEADY",
+            "Window Dimmable Control — CLEAR / UNSET"
+        ],
+        "Securing Aircraft": [
+            "ADIRU — OFF",
+            "HUDs — STOWED",
+            "Emergency Exit Lights — OFF",
+            "APU Selector — OFF",
+            "Battery Switch — OFF"
+        ]
+    },
+    "CRJ-700 Family": {
+        "Pre-flight": [
+            "Parking Brake — SET",
+            "Battery Switches (MAIN & APU) — ON",
+            "AC / DC Power — CHECKED / ON BUS (EXT PWR or APU)",
+            "APU PWR FUEL & START/STOP — ON / START",
+            "APU LCK / BLEED — ON (After Warmup)",
+            "IRS / AHRS Selectors — NAV / MAG DG",
+            "Hydraulic Pumps (1, 2, 3A/3B) — AUTO / OFF / ON (as required)",
+            "Fuel Boost Pumps (L & R) — ON",
+            "FMS / CDU — INIT, ROUTE, PERF & TAKEOFF DATA SET",
+            "FCP (Flight Control Panel) — ALT, HDG, IAS SET",
+            "V-Speeds (V1, VR, V2, VT) — SET & DISPLAYED"
+        ],
+        "Before Taxi": [
+            "Engine Thrust Levers — SHUT OFF",
+            "Engine Start Switches — START (Start #2, then #1)",
+            "Engine Thrust Levers — IDLE (at 20% N2)",
+            "Generators (GEN 1 & GEN 2) — AUTO / ON BUS",
+            "APU BLEED / LCK — OFF / AS REQUIRED",
+            "APU STOP — SHUTDOWN (as required)",
+            "Flaps — SET FOR TAKEOFF (Flaps 8 or 20)",
+            "Flight Controls — CHECK (FULL FREE)",
+            "Trims (Pitch, Roll, Yaw) — SET FOR TAKEOFF",
+            "ED1 / ED2 EICAS — CHECKED (NO RED/AMBER MESSAGES)"
+        ],
+        "Taxi": [
+            "Taxi Lights — ON",
+            "Nose Wheel Steering — Switch NAV / ON",
+            "TCAS — TA/RA",
+            "Weather Radar — ON / AUTO",
+            "Cabin Crew — ADVISED",
+            "Brake Test — CHECK"
+        ],
+        "Before Takeoff": [
+            "Landing Lights — ON",
+            "Strobe & Beacon Lights — ON",
+            "Taxi Lights — OFF",
+            "Continuous Ignition — ON (if required)",
+            "FCP / LNAV & VNAV — ARMED / SELECTED",
+            "Takeoff Config — CHECK (PRESS TO CONFIRM OK)",
+            "Cabin Crew — REPORTED READY"
+        ],
+        "Climbout": [
+            "Thrust Levers — TOGA / CLIMB POWER",
+            "Airspeed — ALIVE & CROSSCHECKED",
+            "80 Knots — CHECKED",
+            "Rotate (VR) — PITCH UP ~15°",
+            "Positive Rate — GEAR UP",
+            "Autopilot — ENGAGE (Above 600 ft AGL)",
+            "Flaps — RETRACT (On Speed Schedule)",
+            "Continuous Ignition — OFF",
+            "Thrust Levers — SET CLIMB DETENT",
+            "Altimeters — SET STANDARD (at Transition Alt)"
+        ],
+        "Descent": [
+            "FMS Arrival & Approach — ENTERED & EXECUTED",
+            "Descent & Approach Briefing — COMPLETE",
+            "Target Speeds / Landing Weight — VERIFIED",
+            "Altimeters — SET QNH / LOCAL",
+            "Target Minimums — SET & CROSSCHECKED"
+        ],
+        "Landing": [
+            "Cabin Crew — REPORTED READY",
+            "Landing Lights — ON",
+            "Continuous Ignition — ON (as required)",
+            "Flaps — FULL (Flaps 45)",
+            "Gear — DOWN (3 GREEN)",
+            "Thrust Reversers — ARMED",
+            "EICAS / Landing Checklist — COMPLETE"
+        ],
+        "Shutdown": [
+            "Parking Brake — SET",
+            "Thrust Levers — SHUT OFF",
+            "Passenger Signs — OFF",
+            "Hydraulic Pumps — OFF",
+            "Fuel Boost Pumps — OFF",
+            "APU / EXT PWR — ON BUS / CONNECTED",
+            "Beacon Light — OFF"
+        ],
+        "Securing Aircraft": [
+            "IRS / AHRS — OFF",
+            "Emergency Lights — OFF",
+            "APU PWR FUEL & START/STOP — OFF",
+            "Battery Switches (MAIN & APU) — OFF"
+        ]
+    },
 }
