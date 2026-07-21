@@ -30,13 +30,21 @@ The **Flight Sim Checklists App** is an interactive, web-based cockpit checklist
 
 | Aircraft Type | Checklist Status | Notes |
 | :--- | :---: | :--- |
-| **Airbus A320** |  Work in Progress | Core procedures added; full checklist coming soon |
-| **Airbus A330** |  Planned | Template ready |
-| **Airbus A340** |  Planned | Template ready |
-| **Airbus A350** |  Planned | Template ready |
-| **Boeing 737 NG** |  Planned | Template ready |
-| **Boeing 737 MAX** |  Planned | Template ready |
-| **Boeing 777** |  Planned | Template ready |
+| **Airbus A220** | Completed | Full Checklist |
+| **Airbus A320** | Completed | Full Checklist |
+| **Airbus A330** | Completed | Full Checklist |
+| **Airbus A340** | Completed | Full Checklist |
+| **Airbus A350** | Completed | Full Checklist |
+| **Airbus A380** | In Progress | TODO |
+| **Boeing 737 NG** | Completed | Full Checklist |
+| **Boeing 737 MAX** | Completed | Full Checklist |
+| **Boeing 747** | Completed | Full Checklist |
+| **Boeing 757** | Completed | Full Checklist |
+| **Boeing 767** | Completed | Full Checklist |
+| **Boeing 777** | Completed | Full Checklist |
+| **Boeing 787** | Completed | Full Checklist |
+| **Bombardier CRJ-700 Family** | Completed | Full Checklist |
+| **Embraer E-170 Family** | In Progress | TODO |
 
 ---
 
