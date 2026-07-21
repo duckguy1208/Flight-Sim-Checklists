@@ -16,7 +16,7 @@ selected_aircraft = st.sidebar.selectbox(
 
 checklist_phase = st.sidebar.radio(
     "Flight Phase:",
-    ["Pre-flight", "Before Taxi", "Taxi", "Before Takeoff", "Climbout", "Descent", "Landing", "After Landing", "Parking", "Securing Aircraft"]
+    ["Pre-flight", "Before Taxi", "Taxi", "Before Takeoff", "Climbout", "Descent", "Landing", "Shutdown", "Securing Aircraft"]
 )
 
 
