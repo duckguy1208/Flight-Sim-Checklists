@@ -1,6 +1,87 @@
 # checklists.py
 
 AIRCRAFT_CHECKLISTS = {
+    "Airbus A220": {
+        "Pre-flight": [
+            "Parking Brake — SET",
+            "Batteries 1 & 2 — AUTO / ON",
+            "External Power / APU — ON BUS",
+            "APU MASTER & START — ON / RUN",
+            "IRS 1 & 2 — NAV / ALIGN",
+            "Exterior Lights — NAV & LOGO ON",
+            "Hydraulic Pumps (3A/3B, 1, 2) — AUTO / ON",
+            "Fuel Boost Pumps — ON",
+            "FMS / TDU — INIT, ROUTE, PERF & TAKEOFF DATA SET",
+            "FCP (Flight Control Panel) — ALT, HDG, IAS SET",
+            "Takeoff Speeds (V1, VR, V2) — SET & DISPLAYED"
+        ],
+        "Before Taxi": [
+            "Engine RUN/STOP Switches — STOP",
+            "Engine Start Selector — IGN/START",
+            "Engine 2 RUN Switch — RUN (Monitor GTF Cool-Down & Spool)",
+            "Engine 1 RUN Switch — RUN (Monitor GTF Cool-Down & Spool)",
+            "Engine Start Selector — NORMAL",
+            "APU MASTER — OFF (as required)",
+            "Flaps — SET FOR TAKEOFF (Flaps 1, 2, or 3)",
+            "Flight Controls — CHECK (FULL FREE / FBW TEST)",
+            "Pitch & Rudder Trim — SET FOR TAKEOFF / ZERO",
+            "ECL / EICAS — CHECKED (NO AMBER/RED MESSAGES)"
+        ],
+        "Taxi": [
+            "Nose Light — TAXI",
+            "Auto Brake — MAX / RTO",
+            "TCAS — TA/RA",
+            "Weather Radar / PWS — ON / AUTO",
+            "Cabin Crew — ADVISED",
+            "Brake Test — CHECK"
+        ],
+        "Before Takeoff": [
+            "Landing Lights — ON",
+            "Strobe Lights — ON",
+            "Nose Light — TO",
+            "FCP / LNAV & VNAV — ARMED / SELECTED",
+            "ECL TO Config Check — PRESSED & CLEARED",
+            "Cabin Crew — REPORTED READY"
+        ],
+        "Climbout": [
+            "Autopilot 1 — ENGAGE (Above 400 ft AGL)",
+            "Thrust Levers — CLIMB DETENT",
+            "Flaps — RETRACT (On Speed Schedule)",
+            "Nose Light — OFF",
+            "Altimeters — SET STANDARD (at Transition Alt)"
+        ],
+        "Descent": [
+            "FMS Arrival & Approach — ENTERED & EXECUTED",
+            "Descent & Approach Briefing — COMPLETE",
+            "Altimeters — SET QNH / LOCAL",
+            "Auto Brake — SET (LOW, MED, or MAX)",
+            "Minimums — SET & CROSSCHECKED"
+        ],
+        "Landing": [
+            "Cabin Crew — REPORTED READY",
+            "Landing Lights — ON",
+            "Nose Light — TAXI",
+            "Flaps — FULL (Flaps 4 or 5)",
+            "Gear — DOWN (3 GREEN)",
+            "Ground Spoilers — ARMED",
+            "ECL Landing Checklist — COMPLETE"
+        ],
+        "Shutdown": [
+            "Parking Brake — SET",
+            "Thrust Levers — IDLE",
+            "Engine RUN/STOP Switches — STOP",
+            "Passenger Signs — OFF",
+            "Fuel Boost Pumps — OFF",
+            "APU / EXT PWR — ON BUS",
+            "Beacon Light — OFF"
+        ],
+        "Securing Aircraft": [
+            "IRS 1 & 2 — OFF",
+            "Emergency Lights — OFF",
+            "APU MASTER — OFF",
+            "Batteries 1 & 2 — OFF"
+        ]
+    },
     "Airbus A320": {
         "Pre-flight": [
             "Parking Brake — ON",
