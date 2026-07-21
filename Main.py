@@ -7,20 +7,18 @@ st.title("Flight Sim Checklists")
 st.write("FOR FLIGHT SIMULATION USE ONLY.")
 
 # List of aircraft available in your app
-
+available_aircraft = list(AIRCRAFT_CHECKLISTS.keys())
 # Create the dropdown menu in the sidebar
 selected_aircraft = st.sidebar.selectbox(
     "Select Aircraft Type:",
     list(AIRCRAFT_CHECKLISTS.keys())
 )
 
-
-"""
 checklist_phase = st.sidebar.radio(
     "Flight Phase:",
-    ["Pre-flight", "Before Taxi", "Taxi", "Before Takeoff", "Takeoff", "Descent", "Landing", "After Landing", "Parking", "Securing Aircraft"]
+    ["Pre-flight", "Before Taxi", "Taxi", "Before Takeoff", "Climbout", "Descent", "Landing", "After Landing", "Parking", "Securing Aircraft"]
 )
-"""
+
 
 # --- MAIN PAGE: Display Checklists ---
 st.title(f"{selected_aircraft} Checklist")
