@@ -1,7 +1,5 @@
 #  Flight Sim Checklists App
 
-> ** WORK IN PROGRESS (WIP)** > This project is actively under development. Checklists for various aircraft types are currently being added and refined. Feel free to contribute or suggest checklist adjustments!
-
 > ** DISCLAIMER:** > **FOR FLIGHT SIMULATION USE ONLY.** > This application and its included checklists are designed strictly for desktop flight simulation (e.g., Microsoft Flight Simulator, X-Plane, Prepar3D). Do **NOT** use this application or any associated data for real-world aviation or flight instruction.
 
 ---
