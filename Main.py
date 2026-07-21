@@ -11,7 +11,6 @@ aircraft_list = [
     "Airbus A330",
     "Airbus A340",
     "Airbus A350",
-    "Airbus A380",
     "Boeing 737 NG",
     "Boeing 737 MAX",
     "Boeing 777"
@@ -28,54 +27,30 @@ checklist_phase = st.sidebar.radio(
     ["Pre-flight", "Before Taxi", "Taxi", "Before Takeoff", "Takeoff", "Descent", "Landing", "Shutdown", "Securing Aircraft"]
 )
 
-if checklist_phase == "Pre-flight":
-    st.header("Pre-flight Checklist")
-    st.markdown("""
-    - [ ] Master battery on
-    - [ ] Avionics power on
-    - [ ] Flight instruments set
-    - [ ] Fuel quantity checked
-    - [ ] Flight plan loaded
-    """)
-elif checklist_phase == "Takeoff":
-    st.header("Takeoff Checklist")
-    st.markdown("""
-    - [ ] Runway and departure briefed
-    - [ ] Flaps set for takeoff
-    - [ ] Transponder set
-    - [ ] Lights on
-    - [ ] Throttle smoothly to full power
-    """)
-elif checklist_phase == "Climb":
-    st.header("Climb Checklist")
-    st.markdown("""
-    - [ ] Positive rate of climb
-    - [ ] Gear up
-    - [ ] Climb power set
-    - [ ] Airspeed alive
-    """)
-elif checklist_phase == "Cruise":
-    st.header("Cruise Checklist")
-    st.markdown("""
-    - [ ] Cruise power set
-    - [ ] Fuel flow monitored
-    - [ ] Navigation checked
-    - [ ] Systems scanned
-    """)
-elif checklist_phase == "Approach":
-    st.header("Approach Checklist")
-    st.markdown("""
-    - [ ] Approach briefing complete
-    - [ ] Altimeter set
-    - [ ] Landing lights on
-    - [ ] Gear and flaps configured
-    """)
-elif checklist_phase == "Landing":
-    st.header("Landing Checklist")
-    st.markdown("""
-    - [ ] On final approach
-    - [ ] Airspeed stabilized
-    - [ ] Flaps set
-    - [ ] Touchdown zone targeted
-    - [ ] Brakes ready
-    """)
+# --- MAIN PAGE: Display Checklists ---
+st.title(f"{selected_aircraft} Checklist")
+st.subheader(f"Phase: {checklist_phase}")
+
+# Example conditional logic to load specific checklists
+if selected_aircraft == "Cessna 172 Skyhawk":
+    if checklist_phase == "Pre-flight":
+        st.checkbox("Control Wheel Lock - REMOVE")
+        st.checkbox("Ignition Switch - OFF")
+        st.checkbox("Master Switch - ON")
+        st.checkbox("Fuel Quantity Indicators - CHECK")
+    elif checklist_phase == "Before Takeoff":
+        st.checkbox("Flight Controls - FREE & CORRECT")
+        st.checkbox("Flight Instruments - CHECK & SET")
+        st.checkbox("Fuel Selector Valve - BOTH")
+
+elif selected_aircraft == "Airbus A320neo":
+    if checklist_phase == "Pre-flight":
+        st.checkbox("Batteries 1 & 2 - AUTO / ON")
+        st.checkbox("External Power - ON (if available)")
+        st.checkbox("APU Bleed - ON")
+    elif checklist_phase == "Before Takeoff":
+        st.checkbox("Flaps - SET FOR TAKEOFF")
+        st.checkbox("Pitch Trim - SET")
+        st.checkbox("ECAM Memo - TO NO BLUE")
+
+    st.info(f"Currently displaying **{checklist_phase}** items for the **{selected_aircraft}**.")
