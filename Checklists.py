@@ -1,0 +1,93 @@
+# checklists.py
+
+AIRCRAFT_CHECKLISTS = {
+    "Airbus A320": {
+        "Pre-flight": [
+            "Parking Brake - ON",
+            "Batteries 1 & 2 - AUTO / ON",
+            "External Power - ON (if available)",
+            "APU MASTER - ON",
+            "APU BLEED - ON",
+            "ADIRS (1, 2, 3) - NAV",
+            "Exterior Lights - NAV / LOGO ON",
+            "MCDU / Flight Plan - SET & INITIALIZED",
+        ],
+        "Before Taxi": [
+            "APU BLEED - OFF",
+            "Engine Mode Selector - IGN/START",
+            "Engine 2 Master Switch - ON",
+            "Engine 1 Master Switch - ON",
+            "Engine Mode Selector - NORMAL",
+            "Status / ECAM - CHECKED (NO BLUE)",
+            "Flight Controls - CHECK (FULL FREE)",
+        ],
+        "Taxi": [
+            "Nose Light - TAXI",
+            "Auto Brake - MAX",
+            "Flaps - SET FOR TAKEOFF",
+            "Pitch Trim - SET FOR TAKEOFF",
+            "Cabin Crew - ADVISED",
+            "Radar / PWS - ON / AUTO",
+        ],
+        "Before Takeoff": [
+            "Brake Temp - CHECK",
+            "Approach Path - CLEAR",
+            "Landing Lights - ON",
+            "Strobe Lights - ON",
+            "Nose Light - TO",
+            "TCAS - TA/RA",
+            "ECAM MEMO - TO NO BLUE",
+        ],
+        "Takeoff": [
+            "Thrust Levers - FLEX or TOGA",
+            "Airspeed - ALIVE / CHECKED",
+            "Rotate (Vr) - PITCH UP 15°",
+            "Positive Climb - GEAR UP",
+            "Autopilot 1 - ENGAGE (Above 100 ft)",
+            "Flaps - RETRACT (At S Speed)",
+        ],
+        "Descent": [
+            "MCDU Performance Page - ENTER ARRIVAL DATA",
+            "Barometric Pressure - SET & CROSSCHECK",
+            "Landing Elevation - AUTO",
+            "Auto Brake - SET (LOW / MED)",
+            "Approach Phase - ACTIVATE",
+        ],
+        "Landing": [
+            "Cabin Crew - REPORTED READY",
+            "Landing Lights - ON",
+            "Flaps - FULL (or CONF 3)",
+            "Gear - DOWN (3 GREEN)",
+            "ECAM MEMO - LANDING NO BLUE",
+            "Sliding Tables - STOWED",
+        ],
+        "Shutdown": [
+            "Parking Brake - ON",
+            "Engine Master 1 & 2 - OFF",
+            "Seat Belts Sign - OFF",
+            "External Power / APU - ON / CONNECTED",
+            "Fuel Pumps - OFF",
+            "Beacon Light - OFF",
+        ],
+        "Securing Aircraft": [
+            "Oxygen Crew Supply - OFF",
+            "ADIRS (1, 2, 3) - OFF",
+            "APU BLEED - OFF",
+            "APU MASTER - OFF",
+            "Exterior Lights - OFF",
+            "Batteries 1 & 2 - OFF",
+        ],
+    },
+    "Airbus A330": {
+        "Pre-flight": [
+            "Batteries 1 & 2 - AUTO / ON",
+            "External Power - ON (if available)",
+            "APU Bleed - ON",
+        ],
+        "Before Takeoff": [
+            "Flaps - SET FOR TAKEOFF",
+            "Pitch Trim - SET",
+            "ECAM Memo - TO NO BLUE",
+        ],
+    },
+}
