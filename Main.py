@@ -7,10 +7,14 @@ st.write("FOR FLIGHT SIMULATION USE ONLY.")
 
 # List of aircraft available in your app
 aircraft_list = [
-    "Cessna 172 Skyhawk",
-    "Airbus A320neo",
-    "Boeing 737-800",
-    "Boeing 777-300ER"
+    "Airbus A320",
+    "Airbus A330",
+    "Airbus A340",
+    "Airbus A350",
+    "Airbus A380",
+    "Boeing 737 NG",
+    "Boeing 737 MAX",
+    "Boeing 777"
 ]
 
 # Create the dropdown menu in the sidebar
@@ -19,12 +23,12 @@ selected_aircraft = st.sidebar.selectbox(
     aircraft_list
 )
 
-checklist = st.selectbox(
-    "Choose a checklist",
-    ["Pre-flight", "Takeoff", "Climb", "Cruise", "Approach", "Landing"]
+checklist_phase = st.sidebar.radio(
+    "Flight Phase:",
+    ["Pre-flight", "Before Taxi", "Taxi", "Before Takeoff", "Takeoff", "Descent", "Landing", "Shutdown", "Securing Aircraft"]
 )
 
-if checklist == "Pre-flight":
+if checklist_phase == "Pre-flight":
     st.header("Pre-flight Checklist")
     st.markdown("""
     - [ ] Master battery on
@@ -33,7 +37,7 @@ if checklist == "Pre-flight":
     - [ ] Fuel quantity checked
     - [ ] Flight plan loaded
     """)
-elif checklist == "Takeoff":
+elif checklist_phase == "Takeoff":
     st.header("Takeoff Checklist")
     st.markdown("""
     - [ ] Runway and departure briefed
@@ -42,7 +46,7 @@ elif checklist == "Takeoff":
     - [ ] Lights on
     - [ ] Throttle smoothly to full power
     """)
-elif checklist == "Climb":
+elif checklist_phase == "Climb":
     st.header("Climb Checklist")
     st.markdown("""
     - [ ] Positive rate of climb
@@ -50,7 +54,7 @@ elif checklist == "Climb":
     - [ ] Climb power set
     - [ ] Airspeed alive
     """)
-elif checklist == "Cruise":
+elif checklist_phase == "Cruise":
     st.header("Cruise Checklist")
     st.markdown("""
     - [ ] Cruise power set
@@ -58,7 +62,7 @@ elif checklist == "Cruise":
     - [ ] Navigation checked
     - [ ] Systems scanned
     """)
-elif checklist == "Approach":
+elif checklist_phase == "Approach":
     st.header("Approach Checklist")
     st.markdown("""
     - [ ] Approach briefing complete
@@ -66,7 +70,7 @@ elif checklist == "Approach":
     - [ ] Landing lights on
     - [ ] Gear and flaps configured
     """)
-elif checklist == "Landing":
+elif checklist_phase == "Landing":
     st.header("Landing Checklist")
     st.markdown("""
     - [ ] On final approach
