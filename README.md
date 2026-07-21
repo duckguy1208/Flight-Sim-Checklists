@@ -1,32 +1,32 @@
-# ✈️ Flight Sim Checklists App
+#  Flight Sim Checklists App
 
-> **🚧 WORK IN PROGRESS (WIP)** > This project is actively under development. Checklists for various aircraft types are currently being added and refined. Feel free to contribute or suggest checklist adjustments!
+> ** WORK IN PROGRESS (WIP)** > This project is actively under development. Checklists for various aircraft types are currently being added and refined. Feel free to contribute or suggest checklist adjustments!
 
-> **⚠️ DISCLAIMER:** > **FOR FLIGHT SIMULATION USE ONLY.** > This application and its included checklists are designed strictly for desktop flight simulation (e.g., Microsoft Flight Simulator, X-Plane, Prepar3D). Do **NOT** use this application or any associated data for real-world aviation or flight instruction.
+> ** DISCLAIMER:** > **FOR FLIGHT SIMULATION USE ONLY.** > This application and its included checklists are designed strictly for desktop flight simulation (e.g., Microsoft Flight Simulator, X-Plane, Prepar3D). Do **NOT** use this application or any associated data for real-world aviation or flight instruction.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The **Flight Sim Checklists App** is an interactive, web-based cockpit checklist tool built with **Streamlit**. Designed for flight simulation enthusiasts, it provides structured, phase-by-phase checklists for commercial airliners and general aviation aircraft to enhance immersion and procedural accuracy during flight sessions.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Multi-Aircraft Selection:** Switch easily between different aircraft via the sidebar dropdown.
 - **9 Flight Phases Covered:** Follow realistic procedures across all major flight phases:
-  - 🛫 Pre-flight
-  - 🚖 Before Taxi & Taxi
-  - 🛫 Before Takeoff & Takeoff
-  - 🛬 Descent & Landing
-  - 🛑 Shutdown & Securing Aircraft
+  -  Pre-flight
+  -  Before Taxi & Taxi
+  -  Before Takeoff & Takeoff
+  -  Descent & Landing
+  -  Shutdown & Securing Aircraft
 - **Interactive Checkboxes:** Track finished items with persistent key bindings to prevent resetting when changing views.
 - **Clean Streamlit UI:** Simple, distraction-free interface optimized for desktop or secondary monitor usage while flying.
 
 ---
 
-## ✈️ Supported Aircraft Status
+##  Supported Aircraft Status
 
 | Aircraft Type | Checklist Status | Notes |
 | :--- | :---: | :--- |
