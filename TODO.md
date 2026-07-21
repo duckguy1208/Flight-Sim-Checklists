@@ -1,30 +1,35 @@
 ##  Aircraft Checklists
 
 ### Airbus Series
-- [ ] **A220** - Draft full checklist
-- [ ] **A320** - Complete all 9 phases (Pre-flight through Securing Aircraft)
-- [ ] **A330** - Expand beyond basic Pre-flight and Before Takeoff phases
-- [ ] **A340** - Draft full checklist
-- [ ] **A350** - Draft full checklist
+- [x] **A220** - Draft full checklist
+- [x] **A320** - Complete all 9 phases (Pre-flight through Securing Aircraft)
+- [x] **A330** - Expand beyond basic Pre-flight and Before Takeoff phases
+- [x] **A340** - Draft full checklist
+- [x] **A350** - Draft full checklist
+- [ ] **A380** - Draft full checklist
 
 ### Boeing Series
-- [ ] **737 NG** - Draft full checklist
-- [ ] **737 MAX** - Draft full checklist
-- [ ] **777** - Draft full checklist
+- [x] **737 NG** - Draft full checklist
+- [x] **737 MAX** - Draft full checklist
+- [x] **747** - Draft full checklist
+- [x] **757** - Draft full checklist
+- [x] **767** - Draft full checklist
+- [x] **777** - Draft full checklist
+- [x] **787** - Draft full checklist
 
 ### Embraer Series
-- [ ] **E175 Family** - Draft full checklist
-- [ ] **E175 E2 Family** - Draft full checklist
+- [x] **E175 Family** - Draft full checklist
+- [] **E175 E2 Family** - Draft full checklist
 
 ### Bombardier Series
-- [ ] **CRJ Family** - Draft full checklist
+- [x] **CRJ Family** - Draft full checklist
 - [ ] **Dash 8 Family** - Draft full checklist
 
 ---
 
 ##  Core Application Features
 
-- [ ] **Refactor Data Structure:** Move inline checklists from hardcoded `if/elif` blocks into a clean JSON/YAML data format or centralized dictionary file (`checklists.py`).
+- [x] **Refactor Data Structure:** Move inline checklists from hardcoded `if/elif` blocks into a clean JSON/YAML data format or centralized dictionary file (`checklists.py`).
 - [ ] **Reset Progress Button:** Add a button in the sidebar to reset all checked boxes for the current aircraft/phase.
 - [ ] **Emergency Checklists:** Create a secondary navigation section for non-normal / emergency checklists (e.g., Engine Failure, Rapid Depressurization).
 - [ ] **Custom Checklist Creator:** Allow users to upload or create custom `.json` checklists directly through the UI.
@@ -46,4 +51,4 @@
 - [x] Create initial `README.md`
 - [x] Create initial `TODO.md`
 - [x] Deploy app to Streamlit Community Cloud
-- [ ] Finish Each Checklist
+- [x] Finish Each Checklist
